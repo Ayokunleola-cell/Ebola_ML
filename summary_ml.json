@@ -1,0 +1,499 @@
+{
+  "setup": {
+    "origins": 31,
+    "step_weeks": 2,
+    "first_origin_week": 20,
+    "horizons": [
+      1,
+      2,
+      4
+    ],
+    "weeks": 82
+  },
+  "tables": {
+    "All|h1": {
+      "4-wk average": {
+        "MAE": 20.453,
+        "MAE_vs_persist": 0.9682,
+        "logMAE": 0.4422,
+        "logMAE_vs_persist": 0.893
+      },
+      "Exp. trend": {
+        "MAE": 21.6886,
+        "MAE_vs_persist": 1.0267,
+        "logMAE": 0.5061,
+        "logMAE_vs_persist": 1.0219
+      },
+      "GBM": {
+        "MAE": 25.8275,
+        "MAE_vs_persist": 1.2227,
+        "logMAE": 0.5774,
+        "logMAE_vs_persist": 1.1659
+      },
+      "GBM (new country)": {
+        "MAE": 25.227,
+        "MAE_vs_persist": 1.1943,
+        "logMAE": 0.5913,
+        "logMAE_vs_persist": 1.1939
+      },
+      "Persistence": {
+        "MAE": 21.1237,
+        "MAE_vs_persist": 1.0,
+        "logMAE": 0.4953,
+        "logMAE_vs_persist": 1.0
+      },
+      "Ridge AR": {
+        "MAE": 66.2817,
+        "MAE_vs_persist": 3.1378,
+        "logMAE": 0.5395,
+        "logMAE_vs_persist": 1.0894
+      },
+      "SEIR (refit)": {
+        "MAE": 26.6757,
+        "MAE_vs_persist": 1.2628,
+        "logMAE": 1.0608,
+        "logMAE_vs_persist": 2.1419
+      }
+    },
+    "All|h2": {
+      "4-wk average": {
+        "MAE": 20.6014,
+        "MAE_vs_persist": 1.0865,
+        "logMAE": 0.677,
+        "logMAE_vs_persist": 0.9155
+      },
+      "Exp. trend": {
+        "MAE": 23.6943,
+        "MAE_vs_persist": 1.2496,
+        "logMAE": 0.7834,
+        "logMAE_vs_persist": 1.0594
+      },
+      "GBM": {
+        "MAE": 20.1016,
+        "MAE_vs_persist": 1.0602,
+        "logMAE": 0.713,
+        "logMAE_vs_persist": 0.9642
+      },
+      "GBM (new country)": {
+        "MAE": 23.2838,
+        "MAE_vs_persist": 1.228,
+        "logMAE": 0.7925,
+        "logMAE_vs_persist": 1.0718
+      },
+      "Persistence": {
+        "MAE": 18.9611,
+        "MAE_vs_persist": 1.0,
+        "logMAE": 0.7394,
+        "logMAE_vs_persist": 1.0
+      },
+      "Ridge AR": {
+        "MAE": 15.302,
+        "MAE_vs_persist": 0.807,
+        "logMAE": 0.5901,
+        "logMAE_vs_persist": 0.798
+      },
+      "SEIR (refit)": {
+        "MAE": 18.2755,
+        "MAE_vs_persist": 0.9638,
+        "logMAE": 1.1796,
+        "logMAE_vs_persist": 1.5953
+      }
+    },
+    "All|h4": {
+      "4-wk average": {
+        "MAE": 24.7371,
+        "MAE_vs_persist": 1.1636,
+        "logMAE": 0.8431,
+        "logMAE_vs_persist": 1.0246
+      },
+      "Exp. trend": {
+        "MAE": 31.1061,
+        "MAE_vs_persist": 1.4632,
+        "logMAE": 0.8695,
+        "logMAE_vs_persist": 1.0567
+      },
+      "GBM": {
+        "MAE": 20.8275,
+        "MAE_vs_persist": 0.9797,
+        "logMAE": 0.7908,
+        "logMAE_vs_persist": 0.961
+      },
+      "GBM (new country)": {
+        "MAE": 20.8709,
+        "MAE_vs_persist": 0.9818,
+        "logMAE": 0.8031,
+        "logMAE_vs_persist": 0.976
+      },
+      "Persistence": {
+        "MAE": 21.2586,
+        "MAE_vs_persist": 1.0,
+        "logMAE": 0.8229,
+        "logMAE_vs_persist": 1.0
+      },
+      "Ridge AR": {
+        "MAE": 17.4518,
+        "MAE_vs_persist": 0.8209,
+        "logMAE": 0.7035,
+        "logMAE_vs_persist": 0.8549
+      },
+      "SEIR (refit)": {
+        "MAE": 18.849,
+        "MAE_vs_persist": 0.8867,
+        "logMAE": 1.2398,
+        "logMAE_vs_persist": 1.5067
+      }
+    },
+    "Active phase (to Mar 2015)|h1": {
+      "4-wk average": {
+        "MAE": 45.9722,
+        "MAE_vs_persist": 1.0129,
+        "logMAE": 0.3511,
+        "logMAE_vs_persist": 0.9678
+      },
+      "Exp. trend": {
+        "MAE": 42.7782,
+        "MAE_vs_persist": 0.9425,
+        "logMAE": 0.3745,
+        "logMAE_vs_persist": 1.0322
+      },
+      "GBM": {
+        "MAE": 57.7532,
+        "MAE_vs_persist": 1.2724,
+        "logMAE": 0.472,
+        "logMAE_vs_persist": 1.3009
+      },
+      "GBM (new country)": {
+        "MAE": 67.6244,
+        "MAE_vs_persist": 1.4899,
+        "logMAE": 0.502,
+        "logMAE_vs_persist": 1.3839
+      },
+      "Persistence": {
+        "MAE": 45.3889,
+        "MAE_vs_persist": 1.0,
+        "logMAE": 0.3628,
+        "logMAE_vs_persist": 1.0
+      },
+      "Ridge AR": {
+        "MAE": 47.7337,
+        "MAE_vs_persist": 1.0517,
+        "logMAE": 0.3907,
+        "logMAE_vs_persist": 1.077
+      },
+      "SEIR (refit)": {
+        "MAE": 49.9953,
+        "MAE_vs_persist": 1.1015,
+        "logMAE": 0.4194,
+        "logMAE_vs_persist": 1.1561
+      }
+    },
+    "Active phase (to Mar 2015)|h2": {
+      "4-wk average": {
+        "MAE": 36.4167,
+        "MAE_vs_persist": 0.8614,
+        "logMAE": 0.2704,
+        "logMAE_vs_persist": 0.6955
+      },
+      "Exp. trend": {
+        "MAE": 57.8427,
+        "MAE_vs_persist": 1.3682,
+        "logMAE": 0.5455,
+        "logMAE_vs_persist": 1.4028
+      },
+      "GBM": {
+        "MAE": 37.5925,
+        "MAE_vs_persist": 0.8892,
+        "logMAE": 0.3686,
+        "logMAE_vs_persist": 0.948
+      },
+      "GBM (new country)": {
+        "MAE": 50.6511,
+        "MAE_vs_persist": 1.1981,
+        "logMAE": 0.4113,
+        "logMAE_vs_persist": 1.0576
+      },
+      "Persistence": {
+        "MAE": 42.2778,
+        "MAE_vs_persist": 1.0,
+        "logMAE": 0.3889,
+        "logMAE_vs_persist": 1.0
+      },
+      "Ridge AR": {
+        "MAE": 28.5112,
+        "MAE_vs_persist": 0.6744,
+        "logMAE": 0.237,
+        "logMAE_vs_persist": 0.6096
+      },
+      "SEIR (refit)": {
+        "MAE": 26.5491,
+        "MAE_vs_persist": 0.628,
+        "logMAE": 0.2801,
+        "logMAE_vs_persist": 0.7203
+      }
+    },
+    "Active phase (to Mar 2015)|h4": {
+      "4-wk average": {
+        "MAE": 46.9167,
+        "MAE_vs_persist": 1.1305,
+        "logMAE": 0.3746,
+        "logMAE_vs_persist": 1.0183
+      },
+      "Exp. trend": {
+        "MAE": 50.0713,
+        "MAE_vs_persist": 1.2065,
+        "logMAE": 0.5153,
+        "logMAE_vs_persist": 1.4009
+      },
+      "GBM": {
+        "MAE": 41.5731,
+        "MAE_vs_persist": 1.0018,
+        "logMAE": 0.3891,
+        "logMAE_vs_persist": 1.0578
+      },
+      "GBM (new country)": {
+        "MAE": 34.9528,
+        "MAE_vs_persist": 0.8422,
+        "logMAE": 0.3268,
+        "logMAE_vs_persist": 0.8886
+      },
+      "Persistence": {
+        "MAE": 41.5,
+        "MAE_vs_persist": 1.0,
+        "logMAE": 0.3678,
+        "logMAE_vs_persist": 1.0
+      },
+      "Ridge AR": {
+        "MAE": 25.2065,
+        "MAE_vs_persist": 0.6074,
+        "logMAE": 0.2506,
+        "logMAE_vs_persist": 0.6813
+      },
+      "SEIR (refit)": {
+        "MAE": 32.1214,
+        "MAE_vs_persist": 0.774,
+        "logMAE": 0.4074,
+        "logMAE_vs_persist": 1.1077
+      }
+    },
+    "Decline & tail (after Mar 2015)|h1": {
+      "4-wk average": {
+        "MAE": 17.7188,
+        "MAE_vs_persist": 0.9565,
+        "logMAE": 0.452,
+        "logMAE_vs_persist": 0.8873
+      },
+      "Exp. trend": {
+        "MAE": 19.429,
+        "MAE_vs_persist": 1.0489,
+        "logMAE": 0.5202,
+        "logMAE_vs_persist": 1.0211
+      },
+      "GBM": {
+        "MAE": 22.4069,
+        "MAE_vs_persist": 1.2096,
+        "logMAE": 0.5887,
+        "logMAE_vs_persist": 1.1556
+      },
+      "GBM (new country)": {
+        "MAE": 20.6844,
+        "MAE_vs_persist": 1.1166,
+        "logMAE": 0.6009,
+        "logMAE_vs_persist": 1.1794
+      },
+      "Persistence": {
+        "MAE": 18.5238,
+        "MAE_vs_persist": 1.0,
+        "logMAE": 0.5095,
+        "logMAE_vs_persist": 1.0
+      },
+      "Ridge AR": {
+        "MAE": 68.269,
+        "MAE_vs_persist": 3.6855,
+        "logMAE": 0.5555,
+        "logMAE_vs_persist": 1.0903
+      },
+      "SEIR (refit)": {
+        "MAE": 24.1772,
+        "MAE_vs_persist": 1.3052,
+        "logMAE": 1.1295,
+        "logMAE_vs_persist": 2.2171
+      }
+    },
+    "Decline & tail (after Mar 2015)|h2": {
+      "4-wk average": {
+        "MAE": 18.8441,
+        "MAE_vs_persist": 1.1511,
+        "logMAE": 0.7221,
+        "logMAE_vs_persist": 0.9277
+      },
+      "Exp. trend": {
+        "MAE": 19.9,
+        "MAE_vs_persist": 1.2156,
+        "logMAE": 0.8098,
+        "logMAE_vs_persist": 1.0404
+      },
+      "GBM": {
+        "MAE": 18.1582,
+        "MAE_vs_persist": 1.1092,
+        "logMAE": 0.7512,
+        "logMAE_vs_persist": 0.9651
+      },
+      "GBM (new country)": {
+        "MAE": 20.243,
+        "MAE_vs_persist": 1.2366,
+        "logMAE": 0.8349,
+        "logMAE_vs_persist": 1.0726
+      },
+      "Persistence": {
+        "MAE": 16.3704,
+        "MAE_vs_persist": 1.0,
+        "logMAE": 0.7784,
+        "logMAE_vs_persist": 1.0
+      },
+      "Ridge AR": {
+        "MAE": 13.8343,
+        "MAE_vs_persist": 0.8451,
+        "logMAE": 0.6293,
+        "logMAE_vs_persist": 0.8085
+      },
+      "SEIR (refit)": {
+        "MAE": 17.3562,
+        "MAE_vs_persist": 1.0602,
+        "logMAE": 1.2796,
+        "logMAE_vs_persist": 1.6439
+      }
+    },
+    "Decline & tail (after Mar 2015)|h4": {
+      "4-wk average": {
+        "MAE": 22.1779,
+        "MAE_vs_persist": 1.172,
+        "logMAE": 0.8972,
+        "logMAE_vs_persist": 1.0249
+      },
+      "Exp. trend": {
+        "MAE": 28.9178,
+        "MAE_vs_persist": 1.5282,
+        "logMAE": 0.9104,
+        "logMAE_vs_persist": 1.04
+      },
+      "GBM": {
+        "MAE": 18.4338,
+        "MAE_vs_persist": 0.9741,
+        "logMAE": 0.8371,
+        "logMAE_vs_persist": 0.9563
+      },
+      "GBM (new country)": {
+        "MAE": 19.246,
+        "MAE_vs_persist": 1.0171,
+        "logMAE": 0.8581,
+        "logMAE_vs_persist": 0.9803
+      },
+      "Persistence": {
+        "MAE": 18.9231,
+        "MAE_vs_persist": 1.0,
+        "logMAE": 0.8754,
+        "logMAE_vs_persist": 1.0
+      },
+      "Ridge AR": {
+        "MAE": 16.557,
+        "MAE_vs_persist": 0.875,
+        "logMAE": 0.7557,
+        "logMAE_vs_persist": 0.8633
+      },
+      "SEIR (refit)": {
+        "MAE": 17.3176,
+        "MAE_vs_persist": 0.9152,
+        "logMAE": 1.3358,
+        "logMAE_vs_persist": 1.526
+      }
+    }
+  },
+  "bootstrap_logerr_diff_vs_persistence": {
+    "GBM|h1": {
+      "mean": 0.08216572563705545,
+      "p5": -0.010434079534199357,
+      "p95": 0.18915115705635283
+    },
+    "Ridge AR|h1": {
+      "mean": 0.04425467315888929,
+      "p5": -0.1340682873454811,
+      "p95": 0.21550990321749242
+    },
+    "GBM (new country)|h1": {
+      "mean": 0.09603586274547668,
+      "p5": 0.0035127955000464443,
+      "p95": 0.20195958351036786
+    },
+    "SEIR (refit)|h1": {
+      "mean": 0.5655444324323647,
+      "p5": 0.22180788948074928,
+      "p95": 0.8535553485083794
+    },
+    "Exp. trend|h1": {
+      "mean": 0.010845263293616318,
+      "p5": -0.0007784791447568925,
+      "p95": 0.0230114918489328
+    },
+    "GBM|h2": {
+      "mean": -0.02645224422368005,
+      "p5": -0.12731253374548307,
+      "p95": 0.08387026377590621
+    },
+    "Ridge AR|h2": {
+      "mean": -0.14935945977450615,
+      "p5": -0.4131580060949218,
+      "p95": 0.06280597081939122
+    },
+    "GBM (new country)|h2": {
+      "mean": 0.05311151616619899,
+      "p5": -0.04555775253194592,
+      "p95": 0.1769948184717622
+    },
+    "SEIR (refit)|h2": {
+      "mean": 0.44019677314478434,
+      "p5": 0.09143016831549168,
+      "p95": 0.7419297416739484
+    },
+    "Exp. trend|h2": {
+      "mean": 0.0439512973214935,
+      "p5": 0.013749002626561094,
+      "p95": 0.07923692492100368
+    },
+    "GBM|h4": {
+      "mean": -0.03210597247439544,
+      "p5": -0.1626631344528341,
+      "p95": 0.10718292401122273
+    },
+    "Ridge AR|h4": {
+      "mean": -0.11938109516281517,
+      "p5": -0.28777924377760344,
+      "p95": 0.04042667854639077
+    },
+    "GBM (new country)|h4": {
+      "mean": -0.019722770075326027,
+      "p5": -0.11138075648682617,
+      "p95": 0.07213494353732647
+    },
+    "SEIR (refit)|h4": {
+      "mean": 0.41692002470946116,
+      "p5": 0.12152946599922419,
+      "p95": 0.6803507474664584
+    },
+    "Exp. trend|h4": {
+      "mean": 0.04665051627167258,
+      "p5": -0.016375977260630604,
+      "p95": 0.11018420683485709
+    }
+  },
+  "gbm_feature_importance": {
+    "lg0": 0.022556731288100654,
+    "lg1": 0.010575560967785672,
+    "lg2": 0.03211780721537072,
+    "lg3": 0.030994237837213272,
+    "d1": 0.2078812101684591,
+    "d2": 0.41687757399406833,
+    "d4": 0.15759791595824765,
+    "m4": 0.046827310514715746,
+    "sd4": 0.07457165205603883
+  }
+}
